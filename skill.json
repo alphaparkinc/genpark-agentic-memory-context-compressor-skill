@@ -1,0 +1,24 @@
+{
+  "name": "genpark-agentic-memory-context-compressor-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - Agent conversation memory sliding window context compressor.",
+  "author": "genpark",
+  "category": "agentic",
+  "tags": [
+    "agentic",
+    "genpark-skill",
+    "ai-agent"
+  ],
+  "inputs": {
+    "messages": {
+      "type": "list"
+    }
+  },
+  "outputs": {
+    "compressed_summary": {
+      "type": "str"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
